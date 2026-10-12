@@ -16,6 +16,6 @@
     "Optimized Windows Defender & SmartScreen compliance with signed installer and non-solid compression.",
     "Eliminated save lag and improved transaction commit speed during billing."
   ],
-  "download_url": "https://github.com/uniqoncomputers-beep/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Setup.exe",
   "is_mandatory": false
 }
