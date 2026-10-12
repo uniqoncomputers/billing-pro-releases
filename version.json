@@ -1,0 +1,21 @@
+{
+  "version": "4.3.9",
+  "build_number": 251,
+  "release_date": "October 2026",
+  "title": "All-in-One Multi-Industry Edition • Professional Release",
+  "highlights": [
+    "Multi-Industry First-Install Setup: Select Business Type & Modules during setup with Owner Master PIN lock.",
+    "Customer Old Due / Opening Balance: Add pre-existing customer balances directly into Customer Ledger & Receive Payment.",
+    "Direct D: Drive WhatsApp PDF Save: Invoices & Quotations shared on WhatsApp are neatly organized in D:\\UNIQON_Bills.",
+    "Smart Customer Delete: Delete ₹0 balance customers cleanly without deleting past invoices or auto-recreating records.",
+    "In-App 1-Click Auto Update: Automatically receive update notifications, download, and install new features in-app.",
+    "In-place Logo, Signature & Watermark: Add shop logo and signature directly inside invoice preview with 1-click."
+  ],
+  "fixes": [
+    "Excluded Opening Balance entries from Today/Monthly Sales & GST revenue totals while keeping Ledger accurate.",
+    "Optimized Windows Defender & SmartScreen compliance with signed installer and non-solid compression.",
+    "Eliminated save lag and improved transaction commit speed during billing."
+  ],
+  "download_url": "https://github.com/uniqoncomputers-beep/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Setup.exe",
+  "is_mandatory": false
+}
