@@ -1,20 +1,20 @@
 {
   "version": "4.3.9",
-  "build_number": 256,
+  "build_number": 257,
   "release_date": "October 2026",
-  "title": "All-in-One Multi-Industry Edition • 60-FPS Motion-Video Festival Top Animation Update",
+  "title": "All-in-One Multi-Industry Edition • Complete Indian Festival Calendar & 60-FPS Motion-Video Top Strip",
   "highlights": [
-    "60-FPS Motion-Video Style Festival & Birthday Top Strip: Articulated galloping reindeer & Santa sleigh over snowy mountains (Christmas), shooting skyrockets & flower-pot fountains with glowing terracotta Diyas (Deepavali), steaming overflowing Pongal pots on firewood & walking Kangayam bullocks with farmer ploughing (Pongal), and 3D glossy balloons with swirling metallic confetti (Owner Birthday).",
+    "Complete 60-FPS Motion-Video Festival Calendar: Added dedicated vector motion scenes for Ramzan (Crescent Moon, Mosque silhouette & swaying Fanoos lanterns), Vinayagar Chaturthi (Golden Crown & Trunk mandala + steaming Modakams on banana leaves), Ayudha Pooja (Mango-leaf & Marigold Toran + flickering Kuthuvilakku lamps), Independence Day & Republic Day (3D waving Indian Tricolor Flag, rotating 24-spoke Ashoka Chakra & soaring peace doves), New Year, Tamil New Year, Deepavali, Pongal, Christmas, and Owner Birthday.",
+    "Smart 2-Day Pre-Festival Top Strip & 3-Day Pongal Celebration: Top strip animation starts 2 days before Diwali, Pongal, Christmas, and Ramzan (and runs across all 3 Pongal days Jan 14–16), while the Greeting Popup appears strictly once on the actual festival day.",
     "Plan-Specific VIP License Activation Celebration: Animated Golden Confetti, Sparkles & VIP Certificate strictly for the customer's activated plan tier (1 Year, 3 Years Offer, or Lifetime + Android App).",
-    "First-Install Shop Owner Birthday Collection: Collects Shop Owner Date of Birth during First-Install Setup & Company Settings for automatic Birthday Wishes on the actual day (no previews).",
-    "Customer Birthday Reminder & 1-Click WhatsApp Wish: Send personalized Birthday Wishes directly to customers from the Dashboard.",
+    "First-Install Shop Owner Birthday Collection & 1-Click Customer Birthday WhatsApp Wishes.",
     "3-Tier Subscription Plans: 1 Year (₹1,500), 3 Years Offer (₹3,000), and Lifetime + Android App Combo (₹9,000)."
   ],
   "fixes": [
-    "Replaced flat emoji symbols in the top animation strip with articulated 60-FPS custom vector motion-graphics scenes.",
-    "Prevented Free Plan monthly quota reset when deleting Invoices, Quotations, Job Sheets, or Products.",
-    "Optimized Windows Defender & SmartScreen compliance with signed installer and non-solid compression."
+    "Separated 2-day pre-festival top-strip animation window from exact-day first-open Greeting Popup.",
+    "Replaced flat emoji symbols in the top animation strip with articulated 60-FPS custom vector motion-graphics scenes with zero text clutter.",
+    "Prevented Free Plan monthly quota reset when deleting Invoices, Quotations, Job Sheets, or Products."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build256_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build257_Setup.exe",
   "is_mandatory": false
 }
