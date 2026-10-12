@@ -1,21 +1,20 @@
 {
   "version": "4.3.9",
-  "build_number": 253,
+  "build_number": 254,
   "release_date": "October 2026",
-  "title": "All-in-One Multi-Industry Edition • VIP Celebration & Festival Wishes Update",
+  "title": "All-in-One Multi-Industry Edition • VIP Celebration & Scenic Festival Strip Update",
   "highlights": [
-    "VIP License Activation Celebration: Animated Golden Confetti, Sparkles & VIP Certificate on Key Activation.",
-    "Festival & Birthday Wishes Animations: Automatic Diwali, Pongal, New Year & Shop Owner Birthday Greeting Animations.",
+    "Plan-Specific VIP License Activation Celebration: Animated Golden Confetti, Sparkles & VIP Certificate strictly for the customer's activated plan tier (1 Year, 3 Years Offer, or Lifetime + Android App).",
+    "All-Day Scenic Festival & Birthday Top Animation Strip: Automatic Christmas Santa Sleigh, Deepavali Crackers & Diyas, Pongal Overflowing Pot & Bullocks Ploughing, and Birthday Balloons running across the top bar on festival days.",
+    "First-Install Shop Owner Birthday Collection: Collects Shop Owner Date of Birth during First-Install Setup & Company Settings for automatic Birthday Wishes on the actual day (no previews).",
     "Customer Birthday Reminder & 1-Click WhatsApp Wish: Send personalized Birthday Wishes directly to customers from the Dashboard.",
-    "3-Tier Subscription Plans: 1 Year (₹1,500), 3 Years Offer (₹3,000), and Lifetime + Android App Combo (₹9,000).",
-    "Monthly Free Plan Quotas: 40 Invoices/Mo, 30 Quotations/Mo, 20 Job Sheets/Mo, and 25 Products with strict Anti-Delete bypass protection.",
-    "Date-Locked Cryptographic Activation Keys: Hardware-bound HMAC-SHA256 keys with embedded expiry protection and masked input security."
+    "3-Tier Subscription Plans: 1 Year (₹1,500), 3 Years Offer (₹3,000), and Lifetime + Android App Combo (₹9,000)."
   ],
   "fixes": [
+    "Ensured Festival & Birthday Greeting Popup appears only once on first open on the actual festival/birthday day, followed by the all-day top animation strip.",
     "Prevented Free Plan monthly quota reset when deleting Invoices, Quotations, Job Sheets, or Products.",
-    "Excluded Opening Balance entries from Today/Monthly Sales & GST revenue totals while keeping Ledger accurate.",
     "Optimized Windows Defender & SmartScreen compliance with signed installer and non-solid compression."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build253_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build254_Setup.exe",
   "is_mandatory": false
 }
