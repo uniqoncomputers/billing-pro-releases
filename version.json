@@ -1,20 +1,20 @@
 {
   "version": "4.3.9",
-  "build_number": 255,
+  "build_number": 256,
   "release_date": "October 2026",
-  "title": "All-in-One Multi-Industry Edition • Pure Scenic Festival Top Animation Strip Update",
+  "title": "All-in-One Multi-Industry Edition • 60-FPS Motion-Video Festival Top Animation Update",
   "highlights": [
+    "60-FPS Motion-Video Style Festival & Birthday Top Strip: Articulated galloping reindeer & Santa sleigh over snowy mountains (Christmas), shooting skyrockets & flower-pot fountains with glowing terracotta Diyas (Deepavali), steaming overflowing Pongal pots on firewood & walking Kangayam bullocks with farmer ploughing (Pongal), and 3D glossy balloons with swirling metallic confetti (Owner Birthday).",
     "Plan-Specific VIP License Activation Celebration: Animated Golden Confetti, Sparkles & VIP Certificate strictly for the customer's activated plan tier (1 Year, 3 Years Offer, or Lifetime + Android App).",
-    "Pure Scenic Festival & Birthday Top Animation Strip (No Text Overlay): Full-width Christmas Santa Sleigh & Snow, Deepavali Crackers & Diyas, Pongal Overflowing Pots & Bullocks Ploughing, and Birthday Balloons running across the top bar on festival days.",
     "First-Install Shop Owner Birthday Collection: Collects Shop Owner Date of Birth during First-Install Setup & Company Settings for automatic Birthday Wishes on the actual day (no previews).",
     "Customer Birthday Reminder & 1-Click WhatsApp Wish: Send personalized Birthday Wishes directly to customers from the Dashboard.",
     "3-Tier Subscription Plans: 1 Year (₹1,500), 3 Years Offer (₹3,000), and Lifetime + Android App Combo (₹9,000)."
   ],
   "fixes": [
-    "Removed text letters from the Festival & Birthday Top Animation Strip so the pure scenic animation runs cleanly across the full top bar.",
+    "Replaced flat emoji symbols in the top animation strip with articulated 60-FPS custom vector motion-graphics scenes.",
     "Prevented Free Plan monthly quota reset when deleting Invoices, Quotations, Job Sheets, or Products.",
     "Optimized Windows Defender & SmartScreen compliance with signed installer and non-solid compression."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build255_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build256_Setup.exe",
   "is_mandatory": false
 }
