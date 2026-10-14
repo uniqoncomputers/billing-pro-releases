@@ -1,25 +1,23 @@
 {
-    "android_build_number":  270,
+    "android_build_number":  271,
     "exe_download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build258_Setup.exe",
-    "build_number":  270,
-    "apk_download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build270_Mobile_Accessories_Edition.apk",
+    "build_number":  271,
+    "apk_download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build271_Mobile_Accessories_Edition.apk",
     "version":  "4.3.9",
     "release_date":  "October 2026",
     "fixes":  [
-                  "Added Emergency Safety Backups rollback to easily recover recent October bills.",
-                  "Fixed Saved Invoices filter to ensure GST Invoices are never hidden from view.",
-                  "Fixed Job Sheets remaining locked when switching to Electronics via Master PIN.",
-                  "Fixed repeated update alert loop by synchronizing internal AppMetadata.buildNumber."
+                  "Prevented text truncation on Large/Medium display zoom settings across all screens.",
+                  "Responsive stack layout for Stamp \u0026 Signature swap controls on compact widths.",
+                  "FittedBox scaling on document selector tabs (Invoice, Quotation, Job Sheet)."
               ],
-    "download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build270_Mobile_Accessories_Edition.apk",
+    "download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build271_Mobile_Accessories_Edition.apk",
     "highlights":  [
-                       "Emergency Safety Backups (Pre-Restore): Instant 1-tap recovery of all previous bills if an older backup was restored by mistake.",
-                       "Export Safety Backups: Directly export pre-restore safety copies to device Downloads with 1 tap.",
-                       "Saved Invoices Full Visibility: All Invoices tab now seamlessly shows both GST Invoices and Retail Invoices with filter options.",
-                       "Owner Master PIN Multi-Industry Unlock: Changing preset to Electronics unlocks Job Sheets, Serial \u0026 Warranty, and full repair suite.",
-                       "SafeArea Status-Bar Padding: Update banner cleanly respects phone top notch, signal, wifi, and battery status bar."
+                       "Responsive Screen Scaling: Adaptive text scaling clamps and FittedBox auto-shrink ensure world-class layout consistency across all Display Sizes (Small, Medium, Large).",
+                       "Zero Overflows in PDF Settings: Stamp \u0026 Signature arrangements, alignments, and document kind selectors adapt responsively without text truncation.",
+                       "Dashboard Hero Metrics Fit: Sales figures, pending repair jobs, and ready counters stay razor-sharp and never truncate on narrow/zoomed displays.",
+                       "Quick Action Polish: Action cards scale text smoothly to prevent awkward line breaks or truncated labels."
                    ],
-    "title":  "UNIQON Billing Pro â€¢ Emergency Safety Backups \u0026 All Invoices Visibility",
+    "title":  "UNIQON Billing Pro â€¢ World-Class Responsive Display \u0026 Layouts",
     "windows_build_number":  258,
     "is_mandatory":  false
 }
