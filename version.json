@@ -1,20 +1,18 @@
 {
-  "version": "4.3.9",
-  "build_number": 258,
-  "release_date": "October 2026",
-  "title": "All-in-One Multi-Industry Edition • World-Class 3D Header Capsule Festival Animation Update",
-  "highlights": [
-    "World-Class Top-Bar Placement (Zero Vertical Space Waste): Festival & Birthday 3D animation now runs seamlessly inside the Top Bar right between the end of 'Dashboard' and the start of the 'Search' bar with a soft edge-fade glass capsule design.",
-    "True 3D Sculpted 60-FPS Motion Scenes: Upgraded Pongal (3D radial-shaded terracotta pots, curved sugarcanes, 3D muscular Kangayam bullocks with humps & farmer ploughing), Christmas (3D glossy curved sleigh, Santa & 3 galloping 3D reindeer), Ayudha Pooja (3D Mango-leaf & multi-petal Marigold garland + sculpted 3D metallic brass Kuthuvilakku lamps), Deepavali, Ramzan, Vinayagar Chaturthi, National Days, and Owner Birthday.",
-    "Smart 2-Day Pre-Festival Top Strip, 3-Day Pongal Celebration & Click-to-View Greeting Card: Starts 2 days before Diwali, Pongal, Christmas, and Ramzan; clicking the 3D capsule re-opens the Festival Greeting Card anytime.",
-    "Plan-Specific VIP License Activation Celebration & First-Install Shop Owner Birthday Collection.",
-    "3-Tier Subscription Plans: 1 Year (₹1,500), 3 Years Offer (₹3,000), and Lifetime + Android App Combo (₹9,000)."
-  ],
-  "fixes": [
-    "Moved festival animation strip into the unused space of AppTopBar between the page title and search bar so the billing workspace is never pushed down.",
-    "Replaced flat rectangular shapes in Pongal, Christmas, and Ayudha Pooja animations with true 3D radial/linear-shaded sculpted vector graphics and ground drop-shadows.",
-    "Prevented Free Plan monthly quota reset when deleting Invoices, Quotations, Job Sheets, or Products."
-  ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build258_Setup.exe",
-  "is_mandatory": false
+    "version":  "4.3.9",
+    "fixes":  [
+                  "Clamped text scale factor (0.85 - 1.12) to prevent ColorOS / system display zoom distortions.",
+                  "Removed Tamil text from Save Payment action button in mobile customer credit screen."
+              ],
+    "download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build267_Mobile_Accessories_Edition.apk",
+    "title":  "Mobile Accessories Edition - Mobile UI Alignment \u0026 English Improvements",
+    "is_mandatory":  false,
+    "highlights":  [
+                       "Perfect Mobile UI Alignment: Optimized layout and font scaling clamping for Oppo, Vivo, Samsung, and all Android devices.",
+                       "English-only Interface: Clean English buttons and labels in Customer Ledger \u0026 Record Payment.",
+                       "New 3-Step 12-Month Birthday Picker: View all 12 months (Jan-Dec) at once with standard Indian DD-MM-YYYY format.",
+                       "Full Store Name Watermark: Dynamic scaling ensures multi-word shop names fit perfectly on printed bills without truncation."
+                   ],
+    "build_number":  267,
+    "release_date":  "October 2026"
 }
