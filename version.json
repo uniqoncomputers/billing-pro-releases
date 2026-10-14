@@ -1,18 +1,24 @@
 {
+    "android_build_number":  268,
+    "exe_download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build258_Setup.exe",
+    "build_number":  268,
+    "apk_download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build268_Mobile_Accessories_Edition.apk",
     "version":  "4.3.9",
+    "release_date":  "October 2026",
     "fixes":  [
+                  "Fixed repeated update alert by bumping internal AppMetadata.buildNumber to 268.",
                   "Clamped text scale factor (0.85 - 1.12) to prevent ColorOS / system display zoom distortions.",
                   "Removed Tamil text from Save Payment action button in mobile customer credit screen."
               ],
-    "download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build267_Mobile_Accessories_Edition.apk",
-    "title":  "Mobile Accessories Edition - Mobile UI Alignment \u0026 English Improvements",
-    "is_mandatory":  false,
+    "download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build268_Mobile_Accessories_Edition.apk",
     "highlights":  [
                        "Perfect Mobile UI Alignment: Optimized layout and font scaling clamping for Oppo, Vivo, Samsung, and all Android devices.",
                        "English-only Interface: Clean English buttons and labels in Customer Ledger \u0026 Record Payment.",
                        "New 3-Step 12-Month Birthday Picker: View all 12 months (Jan-Dec) at once with standard Indian DD-MM-YYYY format.",
-                       "Full Store Name Watermark: Dynamic scaling ensures multi-word shop names fit perfectly on printed bills without truncation."
+                       "Full Store Name Watermark: Dynamic scaling ensures multi-word shop names fit perfectly on printed bills without truncation.",
+                       "SafeArea Status-Bar Padding: Update banner cleanly respects phone top notch, signal, wifi, and battery status bar."
                    ],
-    "build_number":  267,
-    "release_date":  "October 2026"
+    "title":  "Mobile Accessories Edition - Mobile UI Alignment \u0026 English Improvements",
+    "windows_build_number":  258,
+    "is_mandatory":  false
 }
