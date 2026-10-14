@@ -1,23 +1,24 @@
 {
-    "android_build_number":  272,
+    "android_build_number":  273,
     "exe_download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build258_Setup.exe",
-    "build_number":  272,
-    "apk_download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build272_Mobile_Accessories_Edition.apk",
+    "build_number":  273,
+    "apk_download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build273_Mobile_Accessories_Edition.apk",
     "version":  "4.3.9",
     "release_date":  "October 2026",
     "fixes":  [
-                  "Fixed Business Metrics Strip squeezing on Large/Largest display zoom by introducing adaptive 2-row LayoutBuilder.",
-                  "Balanced root font scaler to allow up to 1.18x font scaling on compact screens for users with low vision.",
-                  "Prevented text truncation and container overflow across all mobile screens."
+                  "Fixed PaymentLedgerDialog header vertical text wrap by introducing responsive 2-row LayoutBuilder.",
+                  "Fixed ProductImportDialog subtitle collapsing into a 1-character vertical line by stacking step indicators on compact screens.",
+                  "Fixed MobileSalesScreen invoice number truncation and date multi-line wrap with FittedBox.",
+                  "Fixed saved invoice action buttons right clipping with horizontal SingleChildScrollView."
               ],
-    "download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build272_Mobile_Accessories_Edition.apk",
+    "download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build273_Mobile_Accessories_Edition.apk",
     "highlights":  [
-                       "Vyapar \u0026 Apple Hybrid Display Engine: Dynamic reflow adapts layouts across Small, Medium, Large, and Largest phone zoom settings.",
-                       "Senior \u0026 Elder Readability Mode: Business Metrics Strip automatically switches to a spacious 2-row layout with extra large, high-contrast bold figures on large display zoom.",
-                       "Zero Truncation or Ellipses: Sales, Pending, and Ready Jobs receive dedicated generous width with FittedBox auto-scaling so no figures are cut off.",
-                       "Expanded Dropdowns \u0026 Responsive Controls: PDF arrangements, alignments, and swap buttons wrap and stack cleanly without container bleeding."
+                       "Zero-Overflow Dialogs: Fixed Payment Ledger and Product Import dialogs from squeezing titles and subtitles into vertical columns on Medium/Large display zoom.",
+                       "Copy \u0026 WhatsApp Action Balancing: FittedBox scale-down prevents Copy button label from splitting into two lines (Co / py).",
+                       "Sales Header Number Fit: Invoice Number and Date scale cleanly without ellipses (GST-M-...) or line breaks.",
+                       "Saved Invoice Actions Scroll: Action button bar (View PDF, WhatsApp, Payments) scrolls smoothly on compact screens without right-edge clipping."
                    ],
-    "title":  "UNIQON Billing Pro â€¢ Vyapar \u0026 Apple Hybrid Responsive Display Engine",
+    "title":  "UNIQON Billing Pro â€¢ 100% Zero-Overflow Across All Medium \u0026 Large Zoom Screens",
     "windows_build_number":  258,
     "is_mandatory":  false
 }
