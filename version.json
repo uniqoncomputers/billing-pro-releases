@@ -1,23 +1,23 @@
 {
-    "android_build_number":  271,
+    "android_build_number":  272,
     "exe_download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build258_Setup.exe",
-    "build_number":  271,
-    "apk_download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build271_Mobile_Accessories_Edition.apk",
+    "build_number":  272,
+    "apk_download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build272_Mobile_Accessories_Edition.apk",
     "version":  "4.3.9",
     "release_date":  "October 2026",
     "fixes":  [
-                  "Prevented text truncation on Large/Medium display zoom settings across all screens.",
-                  "Responsive stack layout for Stamp \u0026 Signature swap controls on compact widths.",
-                  "FittedBox scaling on document selector tabs (Invoice, Quotation, Job Sheet)."
+                  "Fixed Business Metrics Strip squeezing on Large/Largest display zoom by introducing adaptive 2-row LayoutBuilder.",
+                  "Balanced root font scaler to allow up to 1.18x font scaling on compact screens for users with low vision.",
+                  "Prevented text truncation and container overflow across all mobile screens."
               ],
-    "download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build271_Mobile_Accessories_Edition.apk",
+    "download_url":  "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build272_Mobile_Accessories_Edition.apk",
     "highlights":  [
-                       "Responsive Screen Scaling: Adaptive text scaling clamps and FittedBox auto-shrink ensure world-class layout consistency across all Display Sizes (Small, Medium, Large).",
-                       "Zero Overflows in PDF Settings: Stamp \u0026 Signature arrangements, alignments, and document kind selectors adapt responsively without text truncation.",
-                       "Dashboard Hero Metrics Fit: Sales figures, pending repair jobs, and ready counters stay razor-sharp and never truncate on narrow/zoomed displays.",
-                       "Quick Action Polish: Action cards scale text smoothly to prevent awkward line breaks or truncated labels."
+                       "Vyapar \u0026 Apple Hybrid Display Engine: Dynamic reflow adapts layouts across Small, Medium, Large, and Largest phone zoom settings.",
+                       "Senior \u0026 Elder Readability Mode: Business Metrics Strip automatically switches to a spacious 2-row layout with extra large, high-contrast bold figures on large display zoom.",
+                       "Zero Truncation or Ellipses: Sales, Pending, and Ready Jobs receive dedicated generous width with FittedBox auto-scaling so no figures are cut off.",
+                       "Expanded Dropdowns \u0026 Responsive Controls: PDF arrangements, alignments, and swap buttons wrap and stack cleanly without container bleeding."
                    ],
-    "title":  "UNIQON Billing Pro â€¢ World-Class Responsive Display \u0026 Layouts",
+    "title":  "UNIQON Billing Pro â€¢ Vyapar \u0026 Apple Hybrid Responsive Display Engine",
     "windows_build_number":  258,
     "is_mandatory":  false
 }
