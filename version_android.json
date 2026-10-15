@@ -1,23 +1,22 @@
 {
   "platform": "android",
   "version": "4.3.9",
-  "build_number": 278,
-  "android_build_number": 278,
+  "build_number": 279,
+  "android_build_number": 279,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Android Build 278 (Swipe Tabs & Universal Edition)",
+  "title": "UNIQON Billing Pro • Android Build 279 (Telegram-Style Swipe & Red Field Highlights)",
   "highlights": [
-    "Swipe Navigation Across Tabs: Easily transition between bottom navigation screens (Home <-> Sales <-> Parties <-> Items <-> More) with fluid left and right swipe gestures.",
-    "Form Field Validation Highlights: Missing required fields (such as Customer Name in Invoices, Quotations, and Job Sheets) are highlighted with a soft red fill and prominent red border.",
-    "Universal Business Edition: Fresh setups default to the Universal Business Edition for all retail and wholesale businesses with direct module unlock assistance (+91 8667237053).",
-    "Isolated Android Stream: In-app background updater downloads and installs Android APK packages directly with isolated manifests."
+    "Telegram-Style Smooth Tab Swipe: Real-time 1:1 finger tracking swipe across bottom navigation tabs (Dashboard <-> Invoices <-> Customers <-> Products) with zero lag and full page state preservation.",
+    "Persistent Red Outlines & Fill for Missing Fields: Missing required form fields (Customer Name, 10-digit Mobile, Products cart, Address, GSTIN) display persistent red borders and soft red fill until typed, avoiding disappearing snackbar confusion.",
+    "Job Sheet Validation: Instant validation feedback with red borders for missing customer details, mobile number, and problem description.",
+    "Isolated In-App Updater: Background downloader installs Android APK directly with chunk progress bar and one-tap install prompt."
   ],
   "fixes": [
-    "Implemented horizontal swipe gesture tab navigation across mobile views.",
-    "Added red outline validation and auto-focus for missing customer and form fields.",
-    "Replaced mobile-accessories default with Universal Business Edition onboarding.",
+    "Replaced gesture recreation with hardware-accelerated PageView swipe navigation.",
+    "Added persistent red outline and fill validation across Mobile Sales and Mobile Job Sheet.",
     "Maintained isolated Android update stream."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build278.apk",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build278.apk",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build279.apk",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build279.apk",
   "is_mandatory": false
 }
