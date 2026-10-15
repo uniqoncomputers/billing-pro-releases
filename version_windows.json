@@ -1,23 +1,22 @@
 {
   "platform": "windows",
   "version": "4.3.9",
-  "build_number": 279,
-  "windows_build_number": 279,
+  "build_number": 280,
+  "windows_build_number": 280,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Windows Desktop Build 279",
+  "title": "UNIQON Billing Pro • Windows Desktop Build 280",
   "highlights": [
-    "Persistent Missing Field Red Outlines: When saving an invoice, quotation, or job sheet, any empty or invalid required field (Customer Name, Mobile Number, Items list, Address for GST/₹50k, GSTIN) remains highlighted with a sharp red border and soft red warning fill until filled.",
-    "Item Table Missing Alert: Prominently warns with a red border and missing product alert box directly on the items table when saving an empty bill.",
-    "Calendar Real-Date Festival Engine: Test festival setup is permanently hidden; 3D celebrations and audio trigger exclusively on authentic calendar festival dates and shop owner birthday.",
-    "Dedicated Windows Update Stream: Pure Windows desktop updates that never download or conflict with Android mobile APK packages."
+    "Clean Production Settings: Permanently removed internal Festival & Birthday 3D Animation Test Setup (Admin Preview) box from Settings, ensuring customer settings remain 100% clean and professional.",
+    "Calendar Real-Date Festival Engine: 3D celebration animations and audio trigger exclusively on authentic calendar festival dates and shop owner birthday.",
+    "Persistent Missing Field Red Outlines: Mandatory form fields show persistent red borders (#DC2626) and soft red warning fill (#FEF2F2) on save attempt until completed.",
+    "Dedicated Windows Update Channel: Windows desktop updates independently from Android without cross-platform APK/EXE confusion."
   ],
   "fixes": [
-    "Added persistent red border (#DC2626) and soft red background (#FEF2F2) on missing mandatory fields across Desktop Invoice and Job Sheet.",
-    "Added red warning banner to empty invoice items grid on save attempt.",
-    "Fixed mobile number validation in Job Sheet.",
-    "Maintained dedicated Windows-only update channel."
+    "Removed festival test setup admin preview from Company Details in Settings.",
+    "Wiped test festival debug overrides to ensure authentic calendar celebration triggering.",
+    "Maintained isolated Windows-only update stream."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build279_Setup.exe",
-  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build279_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build280_Setup.exe",
+  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build280_Setup.exe",
   "is_mandatory": false
 }

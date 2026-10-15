@@ -1,22 +1,23 @@
 {
   "platform": "android",
   "version": "4.3.9",
-  "build_number": 279,
-  "android_build_number": 279,
+  "build_number": 280,
+  "android_build_number": 280,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Android Build 279 (Telegram-Style Swipe & Red Field Highlights)",
+  "title": "UNIQON Billing Pro • Android Build 280 (120 FPS Telegram-Style Smooth Swipe)",
   "highlights": [
-    "Telegram-Style Smooth Tab Swipe: Real-time 1:1 finger tracking swipe across bottom navigation tabs (Dashboard <-> Invoices <-> Customers <-> Products) with zero lag and full page state preservation.",
-    "Persistent Red Outlines & Fill for Missing Fields: Missing required form fields (Customer Name, 10-digit Mobile, Products cart, Address, GSTIN) display persistent red borders and soft red fill until typed, avoiding disappearing snackbar confusion.",
-    "Job Sheet Validation: Instant validation feedback with red borders for missing customer details, mobile number, and problem description.",
-    "Isolated In-App Updater: Background downloader installs Android APK directly with chunk progress bar and one-tap install prompt."
+    "Butter-Smooth Telegram-Style Swipe: Zero-latency 1:1 finger tracking across bottom navigation tabs with PageScrollPhysics and persistent cached screen architecture.",
+    "Eliminated Layout Shifts: Synchronized app layout and header height across all bottom tabs for seamless horizontal transitions.",
+    "Persistent Red Form Field Validation: Mandatory fields (Customer Name, Mobile, Cart, Address, GSTIN) highlight in red until filled.",
+    "Isolated In-App Updater: Background downloader with progress bar and one-tap APK installation."
   ],
   "fixes": [
-    "Replaced gesture recreation with hardware-accelerated PageView swipe navigation.",
-    "Added persistent red outline and fill validation across Mobile Sales and Mobile Job Sheet.",
+    "Equipped PageView with native PageScrollPhysics(parent: ClampingScrollPhysics()).",
+    "Cached bottom tab screen trees to eliminate re-instantiation and frame drops during horizontal drag.",
+    "Stabilized mobile dashboard top strip to eliminate layout jumps.",
     "Maintained isolated Android update stream."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build279.apk",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build279.apk",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build280.apk",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build280.apk",
   "is_mandatory": false
 }
