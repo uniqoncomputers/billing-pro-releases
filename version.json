@@ -1,6 +1,6 @@
 {
   "version": "4.3.9",
-  "build_number": 277,
+  "build_number": 258,
   "android_build_number": 277,
   "windows_build_number": 258,
   "release_date": "October 2026",
@@ -18,7 +18,7 @@
     "Added Customer Ledger icon and popup menu to Customer Master cards.",
     "Fixed horizontal action bar clipping and dialog title vertical wrap on display zoom."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build277.apk",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build258_Setup.exe",
   "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build277.apk",
   "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build258_Setup.exe",
   "is_mandatory": false
