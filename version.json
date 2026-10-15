@@ -1,7 +1,7 @@
 {
   "version": "4.3.9",
   "build_number": 283,
-  "android_build_number": 282,
+  "android_build_number": 283,
   "windows_build_number": 283,
   "release_date": "October 2026",
   "title": "UNIQON Billing Pro • Build 283 (Previous Balance Option & Fast Billing Reset)",
@@ -15,10 +15,10 @@
     "Integrated CustomerCreditRepository previous balance calculation in InvoicePrintService and CompactInvoicePrintService.",
     "Added direct Delete button in sales_document_manager table rows.",
     "Clean invoice form reset and auto-focus after Preview & Save.",
-    "Updated Build 283 Windows installer package."
+    "Updated Build 283 Windows installer and Android release packages."
   ],
   "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build283_Setup.exe",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build282.apk",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build283.apk",
   "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build283_Setup.exe",
   "is_mandatory": false
 }
