@@ -1,24 +1,24 @@
 {
   "platform": "windows",
   "version": "4.3.9",
-  "build_number": 258,
-  "windows_build_number": 258,
+  "build_number": 277,
+  "windows_build_number": 277,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Windows Desktop Edition",
+  "title": "UNIQON Billing Pro • Windows Desktop Build 277",
   "highlights": [
-    "3-Tier Subscription Plans: 1 Year (₹1,500), 3 Years Offer (₹3,000), and Lifetime + Android App Combo (₹9,000).",
-    "Monthly Free Plan Quotas: 40 Invoices/Mo, 30 Quotations/Mo, 20 Job Sheets/Mo, and 25 Products with strict Anti-Delete bypass protection.",
-    "Date-Locked Cryptographic Activation Keys: Hardware-bound HMAC-SHA256 keys with embedded expiry protection and masked input security.",
-    "Multi-Industry First-Install Setup: Select Business Type & Modules during setup with Owner Master PIN lock.",
-    "Customer Old Due / Opening Balance: Add pre-existing customer balances directly into Customer Ledger & Receive Payment.",
-    "In-App 1-Click Auto Update: Automatically receive update notifications, download, and install new features in-app."
+    "Customer Accounts & Debtor Auto-Prioritization: Pending due customers automatically sorted to the top with outstanding badges, KPI metrics cards, and instant Customer Ledger access.",
+    "Product Master Stock Edit & Quick Restock: Unlocked direct stock adjustments in Product Master and one-click quick restock in Inventory Control Reorder tab.",
+    "3D Vector Celebration Animations: 60-FPS animated celebration banners with audio for festivals & shop owner birthdays.",
+    "Seamless Platform Isolation: Windows Desktop updates independently from Android without cross-platform update conflicts.",
+    "Zero-Overflow Display Scaling: Perfectly rendered dialogs and tables across all Windows Display Scaling factors (100%, 125%, 150%)."
   ],
   "fixes": [
-    "Prevented Free Plan monthly quota reset when deleting Invoices, Quotations, Job Sheets, or Products.",
-    "Excluded Opening Balance entries from Today/Monthly Sales & GST revenue totals while keeping Ledger accurate.",
-    "Optimized Windows Defender & SmartScreen compliance with signed installer and non-solid compression."
+    "Unlocked stock editing in Product Master and added audited stock adjustments.",
+    "Added instant restock action button to inventory reorder suggestions.",
+    "Separated Windows and Android update channels to eliminate cross-platform update conflicts.",
+    "Preserved 3D celebration animations and enhanced display scaling resilience across dialogs."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build258_Setup.exe",
-  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build258_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build277_Setup.exe",
+  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build277_Setup.exe",
   "is_mandatory": false
 }
