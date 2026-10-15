@@ -1,23 +1,23 @@
 {
   "platform": "windows",
   "version": "4.3.9",
-  "build_number": 281,
-  "windows_build_number": 281,
+  "build_number": 282,
+  "windows_build_number": 282,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Windows Desktop Build 281",
+  "title": "UNIQON Billing Pro • Windows Desktop Build 282 (Smart Seal & Signature Studio)",
   "highlights": [
-    "Old Customer ID / Ref Code: Dedicated input field in customer master to store legacy customer codes (e.g. CUST-104 or 52) with instant search in customer table and sales billing autocomplete.",
-    "Clean Production Settings: Clean and professional company settings with authentic calendar festival celebrations.",
-    "Persistent Missing Field Red Outlines: Mandatory form fields show persistent red borders and soft red warning fill on save attempt until completed.",
-    "Dedicated Windows Update Channel: Windows desktop updates independently from Android without cross-platform APK/EXE confusion."
+    "Smart Seal & Signature Photo-to-PNG Studio: Convert photos or scans of physical rubber stamps and handwritten signatures into clean, transparent PNGs with automated background paper and shadow erasure.",
+    "Integrated Live Invoice Studio: 1-click photo conversion directly from the desktop Live Invoice Sheet preview and branding modal.",
+    "Auto-Crop & Ink Recoloring: Automatically crops excess margins and offers classic stamp blue (#0F4C81), violet (#581C87), jet black, and official red ink palettes.",
+    "Isolated Windows Update Channel: Windows desktop updates seamlessly via the dedicated installer channel."
   ],
   "fixes": [
-    "Added Old Customer ID / Ref Code field to Desktop Customer Form Dialog.",
-    "Added Old Customer ID search matching and ID badge in Customer Directory table and 360 pane.",
-    "Added Old Customer ID matching in Sales Billing customer autocomplete.",
-    "Maintained isolated Windows-only update stream."
+    "Added SmartStampService and SmartStampConverterDialog for transparent PNG generation.",
+    "Added Magic Photo-to-PNG buttons in Invoice & PDF Document Settings.",
+    "Integrated Smart Seal Studio in Desktop Live Invoice Sheet quick toolbar.",
+    "Updated Build 282 Windows installer package."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build281_Setup.exe",
-  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build281_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build282_Setup.exe",
+  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build282_Setup.exe",
   "is_mandatory": false
 }

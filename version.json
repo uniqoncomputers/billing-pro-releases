@@ -1,25 +1,25 @@
 {
   "version": "4.3.9",
-  "build_number": 281,
-  "android_build_number": 281,
-  "windows_build_number": 281,
+  "build_number": 282,
+  "android_build_number": 282,
+  "windows_build_number": 282,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Build 281 (Customer Old Due & Old Customer ID Support)",
+  "title": "UNIQON Billing Pro • Build 282 (Smart Seal & Signature Photo-to-PNG Studio)",
   "highlights": [
-    "Customer Opening Balance & Old Due (Android): Full feature parity with Desktop — record customer opening balances directly from mobile customer form into customer ledger and receivables.",
-    "Old Customer ID / Legacy Reference Code (Windows & Android): Store previous bookkeeping or software IDs (e.g. CUST-104 or 52) with instant search across customer directory and sales billing.",
-    "Clean Production Settings (Windows): Permanently removed test festival setup admin preview box from Settings.",
-    "Butter-Smooth Telegram-Style Swipe (Android): 120 FPS zero-latency finger-tracking tab navigation with PageScrollPhysics and cached screen instances.",
-    "Persistent Missing Field Red Outlines: Form fields display persistent red outlines and soft red fill on validation failure."
+    "Smart Seal & Signature Photo-to-PNG Studio (Windows & Android): Photograph your physical company rubber seal or paper signature using your phone camera or upload a file. The app automatically detects and removes the white paper background and shadows into a clean 32-bit transparent PNG.",
+    "Intelligent Edge Falloff & Auto-Crop: Automatically detects ink bounds and crops excess empty white paper borders with comfortable padding for sharp invoice printing.",
+    "Official Ink Color Palettes: Keep original ink colors or re-ink with Classic Stamp Blue (#0F4C81), Stamp Violet (#581C87), Jet Black (#111827), Official Red (#B91C1C), or Emerald Green (#047857).",
+    "Seamless Invoice & PDF Integration: 1-click button to apply directly as Company Seal or Authorised Signature in Invoice Settings and Desktop Live Invoice Sheet.",
+    "Full Cross-Platform Support: Runs with background isolate processing on both Windows and Android without any native dependencies."
   ],
   "fixes": [
-    "Added Opening Balance / Old Due input field to Mobile Customer Form with automatic ledger integration.",
-    "Added Old Customer ID / Ref Code field and customerCode database schema across Windows and Android.",
-    "Added Old Customer ID search matching and badge display in Customer Directory and Sales Autocomplete.",
-    "Updated Build 281 Windows installer and Android release packages."
+    "Added SmartStampService with background isolate processing for instant paper background removal.",
+    "Added SmartStampConverterDialog with live transparency checkerboard preview, sensitivity adjustment slider, and auto-crop.",
+    "Added direct Magic Photo-to-PNG buttons in Invoice Settings and Desktop Live Invoice Studio.",
+    "Updated Build 282 Windows installer and Android release packages."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build281_Setup.exe",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build281.apk",
-  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build281_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build282_Setup.exe",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build282.apk",
+  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build282_Setup.exe",
   "is_mandatory": false
 }

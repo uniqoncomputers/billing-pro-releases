@@ -1,23 +1,23 @@
 {
   "platform": "android",
   "version": "4.3.9",
-  "build_number": 281,
-  "android_build_number": 281,
+  "build_number": 282,
+  "android_build_number": 282,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Android Build 281 (Old Due & Old Customer ID)",
+  "title": "UNIQON Billing Pro • Android Build 282 (Smart Seal & Signature Converter)",
   "highlights": [
-    "Customer Opening Balance & Old Due: Add and edit pre-existing customer balances directly on mobile — instantly reflects in Customer Ledger and outstanding receivables without affecting sales turnover or GST reports.",
-    "Old Customer ID / Ref Code: Record legacy customer codes (e.g. CUST-104 or 52) with badges on customer cards and instant search in mobile billing.",
-    "Butter-Smooth Telegram-Style Swipe: Zero-latency 1:1 finger tracking across bottom navigation tabs with PageScrollPhysics and persistent cached screen architecture.",
-    "Persistent Red Form Field Validation: Mandatory fields highlight in red until filled."
+    "Smart Seal & Signature Camera Photo-to-PNG: Snap a camera photo of your physical rubber seal or paper signature directly from your Android phone. The app erases paper shadows and background to produce a transparent PNG.",
+    "Auto-Crop & Ink Enhancer: Automatically crops excess white margins and offers official stamp ink colors (Classic Blue, Stamp Violet, Jet Black, Official Red, Stamp Green) or authentic original ink.",
+    "1-Tap Apply to Invoices: Instantly sets as Company Seal or Authorised Signature on invoices, quotations, and receipts.",
+    "Fast Background Isolate Processing: Image processing runs smoothly in a background thread without lag."
   ],
   "fixes": [
-    "Added Opening Balance (₹) field to Mobile Customer Form with automatic OB-XXXX ledger invoice generation.",
-    "Added Old Customer ID / Ref Code input field and badge display on customer directory cards.",
-    "Enabled Old Customer ID matching and badge in Mobile Sales customer picker.",
-    "Maintained isolated Android update stream."
+    "Integrated SmartStampService and SmartStampConverterDialog for camera & gallery photo processing.",
+    "Added direct Photo-to-PNG buttons in Invoice & PDF Document Settings.",
+    "Optimized transparent PNG storage and PDF rendering for mobile billing.",
+    "Updated Build 282 Android release package."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build281.apk",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build281.apk",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build282.apk",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build282.apk",
   "is_mandatory": false
 }
