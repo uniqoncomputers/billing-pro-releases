@@ -1,23 +1,23 @@
 {
   "platform": "windows",
   "version": "4.3.9",
-  "build_number": 282,
-  "windows_build_number": 282,
+  "build_number": 283,
+  "windows_build_number": 283,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Windows Desktop Build 282 (Smart Seal & Signature Studio)",
+  "title": "UNIQON Billing Pro • Windows Desktop Build 283 (Previous Balance Option & Fast Billing Reset)",
   "highlights": [
-    "Smart Seal & Signature Photo-to-PNG Studio: Convert photos or scans of physical rubber stamps and handwritten signatures into clean, transparent PNGs with automated background paper and shadow erasure.",
-    "Integrated Live Invoice Studio: 1-click photo conversion directly from the desktop Live Invoice Sheet preview and branding modal.",
-    "Auto-Crop & Ink Recoloring: Automatically crops excess margins and offers classic stamp blue (#0F4C81), violet (#581C87), jet black, and official red ink palettes.",
-    "Isolated Windows Update Channel: Windows desktop updates seamlessly via the dedicated installer channel."
+    "Customer Previous Balance on Invoices & Quotations: Optional toggle in Invoice Settings (முந்தைய பாக்கி, default OFF) to display customer previous outstanding balance and total net due across A4, A5, and Thermal prints.",
+    "1-Click Direct Document Deletion: Added direct Delete action button in Document Manager rows for immediate invoice deletion and stock replenishment with 1-click confirmation.",
+    "Instant Clean Billing Reset: After Preview & Save or closing invoice preview, screen automatically resets cleanly to a fresh blank invoice with the next sequential number and auto-focuses on barcode/search."
   ],
   "fixes": [
-    "Added SmartStampService and SmartStampConverterDialog for transparent PNG generation.",
-    "Added Magic Photo-to-PNG buttons in Invoice & PDF Document Settings.",
-    "Integrated Smart Seal Studio in Desktop Live Invoice Sheet quick toolbar.",
-    "Updated Build 282 Windows installer package."
+    "Added showPreviousBalance configuration in invoice print preferences and database.",
+    "Integrated CustomerCreditRepository previous balance calculation in InvoicePrintService and CompactInvoicePrintService.",
+    "Added direct Delete button in sales_document_manager table rows.",
+    "Clean invoice form reset and auto-focus after Preview & Save.",
+    "Updated Build 283 Windows installer package."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build282_Setup.exe",
-  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build282_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build283_Setup.exe",
+  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build283_Setup.exe",
   "is_mandatory": false
 }
