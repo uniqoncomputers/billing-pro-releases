@@ -1,24 +1,23 @@
 {
   "platform": "android",
   "version": "4.3.9",
-  "build_number": 277,
-  "android_build_number": 277,
+  "build_number": 278,
+  "android_build_number": 278,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Android In-App Updater & Customer Ledger",
+  "title": "UNIQON Billing Pro • Android Build 278 (Swipe Tabs & Universal Edition)",
   "highlights": [
-    "Seamless In-App Android Updater: Download updates directly with chunk progress bar and one-tap install prompt without opening Chrome.",
-    "Customer Ledger in Customer Master: Directly view and download customer ledger and transaction history without going through invoice payments.",
-    "Smart Debtor Prioritization: Customers with pending or partial dues automatically float to the top of the customer list with outstanding badges and filter chips.",
-    "Direct Stock Restock: Easily edit and adjust stock in Product Master and one-click quick restock from Inventory Control suggestions.",
-    "Zero-Overflow Display Engine: Perfectly rendered dialogs and action bars across all Large/Medium zoom levels."
+    "Swipe Navigation Across Tabs: Easily transition between bottom navigation screens (Home <-> Sales <-> Parties <-> Items <-> More) with fluid left and right swipe gestures.",
+    "Form Field Validation Highlights: Missing required fields (such as Customer Name in Invoices, Quotations, and Job Sheets) are highlighted with a soft red fill and prominent red border.",
+    "Universal Business Edition: Fresh setups default to the Universal Business Edition for all retail and wholesale businesses with direct module unlock assistance (+91 8667237053).",
+    "Isolated Android Stream: In-app background updater downloads and installs Android APK packages directly with isolated manifests."
   ],
   "fixes": [
-    "Integrated Android PackageInstaller with FileProvider for seamless in-app APK installation.",
-    "Enabled stock editing in Product Master and added audit-logged stock adjustments.",
-    "Added Customer Ledger icon and popup menu to Customer Master cards.",
-    "Fixed horizontal action bar clipping and dialog title vertical wrap on display zoom."
+    "Implemented horizontal swipe gesture tab navigation across mobile views.",
+    "Added red outline validation and auto-focus for missing customer and form fields.",
+    "Replaced mobile-accessories default with Universal Business Edition onboarding.",
+    "Maintained isolated Android update stream."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build277.apk",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build277.apk",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build278.apk",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build278.apk",
   "is_mandatory": false
 }

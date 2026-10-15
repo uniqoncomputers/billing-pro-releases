@@ -1,24 +1,22 @@
 {
   "platform": "windows",
   "version": "4.3.9",
-  "build_number": 277,
-  "windows_build_number": 277,
+  "build_number": 278,
+  "windows_build_number": 278,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Windows Desktop Build 277",
+  "title": "UNIQON Billing Pro • Windows Desktop Build 278",
   "highlights": [
-    "Customer Accounts & Debtor Auto-Prioritization: Pending due customers automatically sorted to the top with outstanding badges, KPI metrics cards, and instant Customer Ledger access.",
-    "Product Master Stock Edit & Quick Restock: Unlocked direct stock adjustments in Product Master and one-click quick restock in Inventory Control Reorder tab.",
-    "3D Vector Celebration Animations: 60-FPS animated celebration banners with audio for festivals & shop owner birthdays.",
-    "Seamless Platform Isolation: Windows Desktop updates independently from Android without cross-platform update conflicts.",
-    "Zero-Overflow Display Scaling: Perfectly rendered dialogs and tables across all Windows Display Scaling factors (100%, 125%, 150%)."
+    "Calendar Real-Date Festival Engine: Test festival setup is permanently reset from normal views; 3D animation and music now only trigger on actual calendar festival dates and shop owner birthday.",
+    "Form Field Validation Highlights: Missing required fields (such as Customer Name in Invoices, Quotations, and Job Sheets) are highlighted with a soft red fill and prominent red border.",
+    "Universal Business Edition: Fresh setups default to the Universal Business Edition for all retail and wholesale businesses with direct module unlock assistance (+91 8667237053).",
+    "Isolated Windows Stream: Pure Windows desktop updates that never download or conflict with Android mobile APK packages."
   ],
   "fixes": [
-    "Unlocked stock editing in Product Master and added audited stock adjustments.",
-    "Added instant restock action button to inventory reorder suggestions.",
-    "Separated Windows and Android update channels to eliminate cross-platform update conflicts.",
-    "Preserved 3D celebration animations and enhanced display scaling resilience across dialogs."
+    "Reset debug festival test banner from all desktop dashboards and topbars.",
+    "Added red outline validation and auto-focus for missing customer and job sheet fields.",
+    "Maintained dedicated Windows-only update channel."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build277_Setup.exe",
-  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build277_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build278_Setup.exe",
+  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build278_Setup.exe",
   "is_mandatory": false
 }
