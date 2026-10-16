@@ -1,25 +1,23 @@
 {
   "version": "4.3.9",
-  "build_number": 284,
-  "android_build_number": 284,
-  "windows_build_number": 284,
+  "build_number": 285,
+  "android_build_number": 285,
+  "windows_build_number": 285,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Build 284 (Android Biometric & PIN Fix, Smooth Navigation, Mobile Delete)",
+  "title": "UNIQON Billing Pro • Build 285 (Smooth Mobile Tab Swiping & 1-Tap New Bill Navigation)",
   "highlights": [
-    "Android Biometric & PIN Security: Resolved fingerprint scanner session and OEM compatibility on Android, ensuring instant biometric unlock without requiring PIN reactivation.",
-    "Seamless Mobile Navigation: Fixed return animation from Invoice Settings to eliminate background flicker and tab desynchronization; restored smooth direct tapping between Home, Products, and other bottom tabs.",
-    "Direct 1-Tap Delete in Mobile Saved Bills: Added an instant Delete button right beside Payments on each saved bill card with stock restoration confirmation."
+    "Smooth Mobile Swiping: Fixed tab swipe freeze and white screen flashing between Home, Invoices, Customers, and Products by stabilizing the mobile tab shell in AnimatedSwitcher.",
+    "Instant 1-Tap New Bill: Fixed New Bill button on Dashboard so a single tap opens the invoice billing screen immediately without screen blinking or requiring a second tap.",
+    "Gesture & PageView Stability: Eliminated conflicting PostFrameCallback jumpToPage calls and redundant animateToPage triggers for uninterrupted 120fps gesture navigation."
   ],
   "fixes": [
-    "Updated BiometricService availability and authentication options to support all Android fingerprint sensors.",
-    "Synchronized app lock session tokens on PIN unlock to preserve biometric authentication across app launches.",
-    "Eliminated transition flash and PageController offset mismatch when navigating back from Invoice Settings.",
-    "Added direct Delete button and 3-dots popup option in MobileSavedSalesPicker.",
-    "Removed Tamil text references from Invoice Settings.",
-    "Updated Build 284 Windows installer and Android release packages."
+    "Stabilized AnimatedSwitcher subtree key for mobile shell tabs to keep PageView alive across tab navigation.",
+    "Resolved 1st-tap New Bill blink by removing duplicate animation triggers in HomeScreen.",
+    "Eliminated post-frame jumpToPage calls during build to ensure seamless touch swiping.",
+    "Updated Build 285 Windows installer and Android release packages."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build284_Setup.exe",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build284.apk",
-  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build284_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build285_Setup.exe",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build285.apk",
+  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build285_Setup.exe",
   "is_mandatory": false
 }
