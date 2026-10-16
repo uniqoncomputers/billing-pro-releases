@@ -1,23 +1,23 @@
 {
   "version": "4.3.9",
-  "build_number": 285,
-  "android_build_number": 285,
+  "build_number": 286,
+  "android_build_number": 286,
   "windows_build_number": 285,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Build 285 (Smooth Mobile Tab Swiping & 1-Tap New Bill Navigation)",
+  "title": "UNIQON Billing Pro • Build 286 (Android Fingerprint Unlock on Launch & Mobile Lock App)",
   "highlights": [
-    "Smooth Mobile Swiping: Fixed tab swipe freeze and white screen flashing between Home, Invoices, Customers, and Products by stabilizing the mobile tab shell in AnimatedSwitcher.",
-    "Instant 1-Tap New Bill: Fixed New Bill button on Dashboard so a single tap opens the invoice billing screen immediately without screen blinking or requiring a second tap.",
-    "Gesture & PageView Stability: Eliminated conflicting PostFrameCallback jumpToPage calls and redundant animateToPage triggers for uninterrupted 120fps gesture navigation."
+    "Fingerprint Unlock on Launch: Fixed startup security routing so that when Fingerprint Login is enabled in Settings, reopening the app prompts for fingerprint immediately without bypassing to Home.",
+    "Active Mobile Lock App: Fixed Logout / Lock App on Android to immediately lock to the security screen requiring Fingerprint or PIN to re-enter.",
+    "PIN Fallback Preservation: Preserved 6-digit PIN unlock option as a seamless fallback whenever fingerprint scanner is not used."
   ],
   "fixes": [
-    "Stabilized AnimatedSwitcher subtree key for mobile shell tabs to keep PageView alive across tab navigation.",
-    "Resolved 1st-tap New Bill blink by removing duplicate animation triggers in HomeScreen.",
-    "Eliminated post-frame jumpToPage calls during build to ensure seamless touch swiping.",
-    "Updated Build 285 Windows installer and Android release packages."
+    "Checked getBiometricEnabled() during startup in main.dart to prevent silent auto-login when biometric is enabled.",
+    "Removed invalid startup password requirement bypass in AndroidSecurityUnlockScreen.",
+    "Updated mobile user menu action to 'Lock App' with a secure lock icon.",
+    "Updated Android Build 286 release package."
   ],
   "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build285_Setup.exe",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build285.apk",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build286.apk",
   "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build285_Setup.exe",
   "is_mandatory": false
 }
