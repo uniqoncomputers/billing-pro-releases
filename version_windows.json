@@ -1,23 +1,24 @@
 {
   "platform": "windows",
   "version": "4.3.9",
-  "build_number": 283,
-  "windows_build_number": 283,
+  "build_number": 284,
+  "windows_build_number": 284,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Windows Desktop Build 283 (Previous Balance Option & Fast Billing Reset)",
+  "title": "UNIQON Billing Pro • Windows Desktop Build 284 (Seamless Navigation, Settings & Performance)",
   "highlights": [
-    "Customer Previous Balance on Invoices & Quotations: Optional toggle in Invoice Settings (முந்தைய பாக்கி, default OFF) to display customer previous outstanding balance and total net due across A4, A5, and Thermal prints.",
-    "1-Click Direct Document Deletion: Added direct Delete action button in Document Manager rows for immediate invoice deletion and stock replenishment with 1-click confirmation.",
-    "Instant Clean Billing Reset: After Preview & Save or closing invoice preview, screen automatically resets cleanly to a fresh blank invoice with the next sequential number and auto-focuses on barcode/search."
+    "Android Biometric & PIN Security: Resolved fingerprint scanner session and OEM compatibility on Android, ensuring instant biometric unlock without requiring PIN reactivation.",
+    "Seamless Mobile Navigation: Fixed return animation from Invoice Settings to eliminate background flicker and tab desynchronization; restored smooth direct tapping between Home, Products, and other bottom tabs.",
+    "Direct 1-Tap Delete in Mobile Saved Bills: Added an instant Delete button right beside Payments on each saved bill card with stock restoration confirmation."
   ],
   "fixes": [
-    "Added showPreviousBalance configuration in invoice print preferences and database.",
-    "Integrated CustomerCreditRepository previous balance calculation in InvoicePrintService and CompactInvoicePrintService.",
-    "Added direct Delete button in sales_document_manager table rows.",
-    "Clean invoice form reset and auto-focus after Preview & Save.",
-    "Updated Build 283 Windows installer package."
+    "Updated BiometricService availability and authentication options to support all Android fingerprint sensors.",
+    "Synchronized app lock session tokens on PIN unlock to preserve biometric authentication across app launches.",
+    "Eliminated transition flash and PageController offset mismatch when navigating back from Invoice Settings.",
+    "Added direct Delete button and 3-dots popup option in MobileSavedSalesPicker.",
+    "Removed Tamil text references from Invoice Settings.",
+    "Updated Build 284 Windows installer package."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build283_Setup.exe",
-  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build283_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build284_Setup.exe",
+  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build284_Setup.exe",
   "is_mandatory": false
 }
