@@ -1,23 +1,23 @@
 {
   "version": "4.3.9",
-  "build_number": 286,
-  "android_build_number": 286,
+  "build_number": 293,
+  "android_build_number": 293,
   "windows_build_number": 285,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Build 286 (Android Fingerprint Unlock on Launch & Mobile Lock App)",
+  "title": "UNIQON Billing Pro • Android Build 293 (100% Silent Google Drive Auto-Backup & License Recovery)",
   "highlights": [
-    "Fingerprint Unlock on Launch: Fixed startup security routing so that when Fingerprint Login is enabled in Settings, reopening the app prompts for fingerprint immediately without bypassing to Home.",
-    "Active Mobile Lock App: Fixed Logout / Lock App on Android to immediately lock to the security screen requiring Fingerprint or PIN to re-enter.",
-    "PIN Fallback Preservation: Preserved 6-digit PIN unlock option as a seamless fallback whenever fingerprint scanner is not used."
+    "100% Silent Google Drive Auto-Backup: Invoices and data changes are automatically backed up to Google Drive in the background with zero pop-up interruptions.",
+    "Auto-Sync on Bill and Exit: Instant silent backup triggers on invoice creation, app minimize, and app exit.",
+    "Automatic License & Company Logo Recovery: Pro activation and branding persist across all backup and restore cycles."
   ],
   "fixes": [
-    "Checked getBiometricEnabled() during startup in main.dart to prevent silent auto-login when biometric is enabled.",
-    "Removed invalid startup password requirement bypass in AndroidSecurityUnlockScreen.",
-    "Updated mobile user menu action to 'Lock App' with a secure lock icon.",
-    "Updated Android Build 286 release package."
+    "Integrated Google Cloud OAuth 2.0 Client credentials with Android Credential Manager.",
+    "Added debounced background auto-backup worker on billing and system back exit.",
+    "Preserved offline SQLite data and safety snapshots.",
+    "Updated Android Build 293 release package."
   ],
   "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build285_Setup.exe",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build286.apk",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build293.apk",
   "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build285_Setup.exe",
   "is_mandatory": false
 }
