@@ -1,22 +1,23 @@
 {
   "platform": "android",
   "version": "4.3.9",
-  "build_number": 293,
-  "android_build_number": 293,
+  "build_number": 294,
+  "android_build_number": 294,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Android Build 293 (100% Silent Google Drive Auto-Backup & License Recovery)",
+  "title": "UNIQON Billing Pro • Android Build 294 (Infinite Update Prompt Fix & Google Drive Cloud Backup)",
   "highlights": [
+    "Fixed Update Prompt Loop: Corrected app internal build number so update dialog stops popping up once updated.",
     "100% Silent Google Drive Auto-Backup: Invoices and data changes are automatically backed up to Google Drive in the background with zero pop-up interruptions.",
     "Auto-Sync on Bill and Exit: Instant silent backup triggers on invoice creation, app minimize, and app exit.",
     "Automatic License & Company Logo Recovery: Pro activation and branding persist across all backup and restore cycles."
   ],
   "fixes": [
+    "Synchronized AppMetadata.buildNumber to 294 to resolve repeated update prompts.",
     "Integrated Google Cloud OAuth 2.0 Client credentials with Android Credential Manager.",
     "Added debounced background auto-backup worker on billing and system back exit.",
-    "Preserved offline SQLite data and safety snapshots.",
-    "Updated Android Build 293 release package."
+    "Updated Android Build 294 release package."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build293.apk",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build293.apk",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build294.apk",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build294.apk",
   "is_mandatory": false
 }
