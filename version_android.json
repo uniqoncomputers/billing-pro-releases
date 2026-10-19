@@ -1,23 +1,24 @@
 {
   "platform": "android",
   "version": "4.3.9",
-  "build_number": 294,
-  "android_build_number": 294,
+  "build_number": 295,
+  "android_build_number": 295,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Android Build 294 (Infinite Update Prompt Fix & Google Drive Cloud Backup)",
+  "title": "UNIQON Billing Pro • Android Build 295 (Theme Tab Swipe Toggle, Back Navigation Loop Fix, Onboarding UI Alignment & Pro Lock Protection)",
   "highlights": [
-    "Fixed Update Prompt Loop: Corrected app internal build number so update dialog stops popping up once updated.",
-    "100% Silent Google Drive Auto-Backup: Invoices and data changes are automatically backed up to Google Drive in the background with zero pop-up interruptions.",
-    "Auto-Sync on Bill and Exit: Instant silent backup triggers on invoice creation, app minimize, and app exit.",
-    "Automatic License & Company Logo Recovery: Pro activation and branding persist across all backup and restore cycles."
+    "Swipe Between Tabs On/Off Control: Users can enable or disable horizontal swiping gestures in Settings > Theme & Appearance.",
+    "Fixed Back Navigation Loop: Resolved issue where pressing back after swiping only bounced between two tabs.",
+    "First Install PRO Lock: PC Builder and Barcode Stickers are locked by default on first install, protected by Owner Master PIN.",
+    "Fixed Backup Storage UI Overlap: Realigned Backup Storage Location badge and folder path card during initial onboarding."
   ],
   "fixes": [
-    "Synchronized AppMetadata.buildNumber to 294 to resolve repeated update prompts.",
-    "Integrated Google Cloud OAuth 2.0 Client credentials with Android Credential Manager.",
-    "Added debounced background auto-backup worker on billing and system back exit.",
-    "Updated Android Build 294 release package."
+    "Added tabSwipeEnabledNotifier and setting switch in App Theme & Appearance.",
+    "Fixed MenuNavigationHistory cycle truncation to allow smooth multi-step back navigation.",
+    "Cleaned up Backup Storage Location badge collision and styled path display in first install onboarding.",
+    "Guarded mobile dashboard quick access cards with TenantContext module enablement.",
+    "Updated Android release package to Build 295."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build294.apk",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build294.apk",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build295.apk",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build295.apk",
   "is_mandatory": false
 }
