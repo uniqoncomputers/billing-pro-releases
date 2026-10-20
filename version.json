@@ -1,25 +1,24 @@
 {
   "version": "4.3.9",
-  "build_number": 295,
+  "build_number": 296,
   "android_build_number": 295,
-  "windows_build_number": 285,
+  "windows_build_number": 296,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Android Build 295 (Theme Tab Swipe Toggle, Back Navigation Loop Fix, Onboarding UI Alignment & Pro Lock Protection)",
+  "title": "UNIQON Billing Pro • Windows Build 296 & Android Build 295 (Desktop Auth Auto-Prefill, 1-Click Login & Accidental Logout Guard)",
   "highlights": [
-    "Swipe Between Tabs On/Off Control: Users can enable or disable horizontal swiping gestures in Settings > Theme & Appearance.",
-    "Fixed Back Navigation Loop: Resolved issue where pressing back after swiping only bounced between two tabs.",
-    "First Install PRO Lock: PC Builder and Barcode Stickers are locked by default on first install, protected by Owner Master PIN.",
-    "Fixed Backup Storage UI Overlap: Realigned Backup Storage Location badge and folder path card during initial onboarding."
+    "Default Admin Auto-Prefill: Username field is automatically pre-filled with 'admin' so customers never wonder what their username is.",
+    "1-Click Continue as Admin: When App Lock is turned OFF in Settings, a single tap on 'Continue as Admin' opens the software without demanding any password.",
+    "Smart Desktop Logout Alert: Clicking Logout while App Lock is OFF prompts to Close App or Switch User, preventing accidental logout lockouts.",
+    "Password Recovery Username Sync: Forgot Password dialog now automatically pre-fills the Administrator username."
   ],
   "fixes": [
-    "Added tabSwipeEnabledNotifier and setting switch in App Theme & Appearance.",
-    "Fixed MenuNavigationHistory cycle truncation to allow smooth multi-step back navigation.",
-    "Cleaned up Backup Storage Location badge collision and styled path display in first install onboarding.",
-    "Guarded mobile dashboard quick access cards with TenantContext module enablement.",
-    "Updated Android release package to Build 295."
+    "Pre-filled default admin username on Desktop LoginScreen and added helpful indicator.",
+    "Allowed fast-track admin login when App Lock / Startup Password is disabled in Settings.",
+    "Added Exit confirmation dialog when logging out with disabled App Lock on Windows desktop.",
+    "Synchronized Windows build metadata to Build 296."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build285_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build296_Setup.exe",
   "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build295.apk",
-  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build285_Setup.exe",
+  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build296_Setup.exe",
   "is_mandatory": false
 }
