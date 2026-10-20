@@ -1,24 +1,29 @@
 {
   "version": "4.3.9",
   "build_number": 296,
-  "android_build_number": 295,
+  "android_build_number": 296,
   "windows_build_number": 296,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Windows Build 296 & Android Build 295 (Desktop Auth Auto-Prefill, 1-Click Login & Accidental Logout Guard)",
+  "title": "UNIQON Billing Pro • Build 296 (Tap-to-Edit Bill No, Sequence Reset Fix & Desktop Auth Prefill)",
   "highlights": [
+    "Tap-to-Edit Bill Number on Mobile: Users can now tap directly on the Bill No on mobile to correct or customize invoice numbers (e.g. change 005354 to 000535).",
+    "Invoice Settings Counter Fix: Setting the next bill number in Settings > Invoice Settings now strictly respects the owner's choice and will not revert back to older high numbers.",
+    "Deleted Invoices Ignored: Deleting an accidental or misnumbered invoice completely removes it from the sequence so it never blocks the sequence counter.",
     "Default Admin Auto-Prefill: Username field is automatically pre-filled with 'admin' so customers never wonder what their username is.",
     "1-Click Continue as Admin: When App Lock is turned OFF in Settings, a single tap on 'Continue as Admin' opens the software without demanding any password.",
-    "Smart Desktop Logout Alert: Clicking Logout while App Lock is OFF prompts to Close App or Switch User, preventing accidental logout lockouts.",
-    "Password Recovery Username Sync: Forgot Password dialog now automatically pre-fills the Administrator username."
+    "Smart Desktop Logout Alert: Clicking Logout while App Lock is OFF prompts to Close App or Switch User, preventing accidental logout lockouts."
   ],
   "fixes": [
+    "Added _showEditInvoiceNumberDialog with live duplicate validation to mobile sales screen.",
+    "Filtered out deleted sales in _highestSavedInvoiceNumber to prevent sequence lockouts.",
+    "Prioritized stored sequence counter in getNextInvoiceNumber to honor manual setting changes.",
     "Pre-filled default admin username on Desktop LoginScreen and added helpful indicator.",
     "Allowed fast-track admin login when App Lock / Startup Password is disabled in Settings.",
     "Added Exit confirmation dialog when logging out with disabled App Lock on Windows desktop.",
-    "Synchronized Windows build metadata to Build 296."
+    "Synchronized release metadata across Windows and Android to Build 296."
   ],
   "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build296_Setup.exe",
-  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build295.apk",
+  "apk_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_v4.3.9_Build296.apk",
   "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build296_Setup.exe",
   "is_mandatory": false
 }
