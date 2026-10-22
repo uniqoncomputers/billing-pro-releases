@@ -1,26 +1,25 @@
 {
   "platform": "windows",
   "version": "4.3.9",
-  "build_number": 297,
-  "windows_build_number": 297,
+  "build_number": 298,
+  "windows_build_number": 298,
   "release_date": "October 2026",
-  "title": "UNIQON Billing Pro • Windows Desktop Build 297 (Google Drive Desktop OAuth2 & Silent Cloud Auto-Sync)",
+  "title": "UNIQON Billing Pro • Windows Desktop Build 298 (Native Google Drive Cloud Sync & Zero-Error Backup)",
   "highlights": [
-    "Google Drive Cloud Auto-Backup on Windows: Desktop EXE now supports 1-click Google Account sign-in via browser loopback with automatic token persistence.",
-    "Silent Cloud Auto-Sync on Desktop: Backups automatically upload silently to Google Drive in the background whenever bills are saved and on app exit.",
+    "Google Drive Cloud Auto-Sync on Windows: Native detection of Google Drive for Desktop with 1-Click activation.",
+    "Zero-Error Cloud Backup: Completely removed failing web OAuth dialogs; automatic backups seamlessly sync directly to customer's Google Drive.",
+    "Smart Google Drive Guidance: Clean detection card shows real-time Google Drive sync status and download link if not yet installed.",
     "Default Admin Auto-Prefill: Username field is automatically pre-filled with 'admin' so customers never wonder what their username is.",
-    "1-Click Continue as Admin: When App Lock is turned OFF in Settings, a single tap on 'Continue as Admin' opens the software without demanding any password.",
-    "Smart Desktop Logout Alert: Clicking Logout while App Lock is OFF prompts to Close App or Switch User, preventing accidental logout lockouts."
+    "1-Click Continue as Admin: When App Lock is turned OFF in Settings, a single tap on 'Continue as Admin' opens the software without demanding any password."
   ],
   "fixes": [
-    "Added OAuth 2.0 loopback client (auth_io) to GoogleDriveBackupService for Windows desktop.",
-    "Persisted Google Drive desktop OAuth credentials in FlutterSecureStorage for automatic background token refresh.",
+    "Resolved Google OAuth 'Error 400: redirect_uri_mismatch' on Windows desktop by integrating native Google Drive for Desktop auto-sync.",
+    "Added 1-click 'Enable Google Drive Cloud Sync' button in Desktop Settings.",
+    "Corrected settings save dispatch for instantaneous folder and auto-backup activation.",
     "Pre-filled default admin username on Desktop LoginScreen and added helpful indicator.",
-    "Allowed fast-track admin login when App Lock / Startup Password is disabled in Settings.",
-    "Added Exit confirmation dialog when logging out with disabled App Lock on Windows desktop.",
-    "Synchronized Windows build metadata to Build 297."
+    "Synchronized Windows build metadata to Build 298."
   ],
-  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build297_Setup.exe",
-  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build297_Setup.exe",
+  "download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build298_Setup.exe",
+  "exe_download_url": "https://github.com/uniqoncomputers/billing-pro-releases/releases/download/v4.3.9/UNIQON_Billing_Pro_All_In_One_v4.3.9_Build298_Setup.exe",
   "is_mandatory": false
 }
